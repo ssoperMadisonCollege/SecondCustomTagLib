@@ -1,0 +1,21 @@
+<taglib>
+
+    <tlib-version>1.0</tlib-version>
+    <jsp-version>2.0</jsp-version>
+    <short-name>Second custom tag lib</short-name>
+    <uri>http://matc.edu/tags</uri>
+    <!--
+    The URI can be whatever you choose, it doesn't have to point to a real URI.  It will be used in the JSPs that use
+    this taglib.
+     -->
+    <tag>
+        <!-- Name defines the tag that will be used in JSPs to call your tag code. -->
+        <name>SecondCustomTagLib</name>
+        <!-- tag-class is the fully qualified class containing the doTag() method that should run when <Hello> is used -->
+        <tag-class>ssoper.matc.secondCustomTagLib.SecondCustomTagLib</tag-class>
+        <!-- body-content is used to pass values to your tag code -->
+        <body-content>empty</body-content>
+
+    </tag>
+
+</taglib>
